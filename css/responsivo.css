@@ -80,6 +80,12 @@
         position: relative;
         margin-left: 50vw;
     }
+    .hide{
+        opacity: 0;
+        width: 0;
+        height: 0;
+        display: none;
+    }
     .home-img img{
         margin-top: 6rem;
     }
@@ -97,7 +103,28 @@
 
 @media (max-width:320px) {
     .main{
-        width: 20px;
+        display: flex;
+        width: 80%;
+        height: 0%;
+        align-items: end;
+        flex-direction: row;
+    }
+    .main li img{
+        width: 30px;
+        height: 30px;
+        line-height: 1.2;
+    }
+    .row{
+        height: 50px;
+        width: 50px;
+    }
+    .row2{
+        height: 50px;
+        width: 50px;
+    }
+    .row3{
+        height: 50px;
+        width: 50px;
     }
     .logo{
         width: 15px;
@@ -115,25 +142,47 @@
         position: relative;
         margin-left: 50vw;
     }
+    .hide{
+        opacity: 0;
+        width: 0;
+        height: 0;
+        display: none;
+    }
     .home-img img{
         margin-top: 6rem;
+        height: 5rem;
+        width: 5rem;
     }
     .home-text{
-        text-align: center;
-        width: 50%;
-        
+        margin-top: 2rem;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
     }
     .home-text h1{
         font-size: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 10px;
+    }
+    .home-text h5{
+        margin-bottom: 15px;
+    }
+    .home-text h3{
+        font-size: 30px;
+        display: flex;
+        align-items: start;
+        margin-bottom: 30px;
     }
     .btn{
-        position: absolute;
         display: flex;
         justify-content: center;
         align-items: center;
         width: 70px;
+        height: 50px;
     }
 }
