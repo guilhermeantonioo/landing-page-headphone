@@ -1,0 +1,139 @@
+
+@media (max-width: 768px) {
+    .home{
+        flex-direction: column;
+        padding: 0 3%
+    }
+    .home-img img{
+        width: 16rem;
+        position: relative;
+        margin-top: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main{
+        margin-left: 2rem;
+    }
+    .navegacao {
+        display: none;
+        opacity: 0;
+        
+    }
+    .logo{
+        width: 40px;
+        font-size: 20px;
+    }
+    .navegacao-menu{
+        background-color: #101113;
+        width: 40vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -30rem;
+        position: relative;
+        margin-left: 60vw;
+    }
+
+    .hide{
+        opacity: 0;
+        width: 0;
+        height: 0;
+        display: none;
+    }
+
+    .navegacao-menu a{
+        color: #fff;
+        text-decoration: none;
+        gap: 80px;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:450px) {
+    .home-img img{
+        width: 8rem;
+        position: relative;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main{
+        width: 20px;
+    }
+    .logo{
+        width: 20px;
+        font-size: 20px;
+    }
+    .navegacao-menu{
+        width: 50vw;
+        padding: 50px 30px;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -30rem;
+        position: relative;
+        margin-left: 50vw;
+    }
+    .home-img img{
+        margin-top: 6rem;
+    }
+    .home-text{
+        text-align: center;
+    }
+    .home-text h1{
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width:320px) {
+    .main{
+        width: 20px;
+    }
+    .logo{
+        width: 15px;
+        font-size: 15px;
+    }
+    .navegacao-menu{
+        width: 50vw;
+        padding: 50px 30px;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -30rem;
+        position: relative;
+        margin-left: 50vw;
+    }
+    .home-img img{
+        margin-top: 6rem;
+    }
+    .home-text{
+        text-align: center;
+        width: 50%;
+        
+    }
+    .home-text h1{
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+    }
+}
