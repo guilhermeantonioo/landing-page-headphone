@@ -4,14 +4,11 @@ let btn3 = document.querySelector('.img3')
 let block = document.querySelector('.block');
 let btnMenu = document.querySelector('#menu')
 let menu = document.querySelector('.navegacao-menu')
-let container = document.querySelector('.container')
-
-// btnMenu.addEventListener('click' , () =>{
-//     menu.style = 'margin-top:-30rem;'
-// })
+let cart = document.querySelector('#cart')
 
 btnMenu.addEventListener('click' , () =>{
     menu.classList.toggle('hide')
+    cart.classList.toggle('hide')
     
 })
 
