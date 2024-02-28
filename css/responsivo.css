@@ -181,8 +181,9 @@
 
 
 @media (max-width:320px) {
-    .main-menu{
+    .main-mobile{
         border: 1px solid yellow;
+        margin-top:0;
     }
     .main-mobile li img{
         width: 30px;
