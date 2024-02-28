@@ -162,7 +162,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 10px 0;
+        border:blue;
     }
     .home-text h5{
         margin-bottom: 20px;
