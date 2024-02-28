@@ -152,6 +152,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        border: 1px solid green;
         margin:0;
         width: 80%;
 }
@@ -160,7 +161,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 10px 0;
+        margin-top: 10px 0;
+        background-color:#fff;
     }
     .home-text h5{
         margin-bottom: 20px;
