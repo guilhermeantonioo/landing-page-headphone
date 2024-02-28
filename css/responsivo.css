@@ -153,6 +153,7 @@
         justify-content: center;
         align-items: center;
         border: 1px solid green;
+        background-color:grey;
         margin:0;
         width: 80%;
 }
@@ -162,7 +163,6 @@
         align-items: center;
         justify-content: center;
         margin-top: 10px 0;
-        background-color:#fff;
     }
     .home-text h5{
         margin-bottom: 20px;
