@@ -146,7 +146,12 @@ section{
     border: 2px solid var(--text-color);
     color: #000;
 }
-
+.main-mobile{
+    height: 0;
+    width: 0;
+    display: none;
+    opacity: 0;
+}
 .main{
     position: absolute;
     top: 50%;
