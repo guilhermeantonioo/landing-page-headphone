@@ -34,6 +34,7 @@
         align-items: center;
         margin-top: -30rem;
         position: relative;
+        opacity: 1;
         margin-left: 60vw;
     }
 
@@ -102,6 +103,7 @@
         align-items: center;
         margin-top: -30rem;
         position: relative;
+        opacity: 1;
         margin-left: 50vw;
     }
     .hide{
@@ -187,6 +189,7 @@
         align-items: center;
         margin-top: -30rem;
         position: relative;
+        opacity: 1;
         margin-left: 50vw;
     }
     .hide{
