@@ -162,6 +162,7 @@
         position: absolute;
         bottom: 0;
         margin-bottom: 140px;
+        bottom: 1px solid blue;
         padding: 0;
         width: 80%;
 }
@@ -198,7 +199,7 @@
         align-items: center;
         position: absolute;
         bottom: 0;
-        margin-bottom: 150px;
+        margin-bottom: 130px;
         border: 1px solid orange;
         padding: 0;
         width: 80%;
@@ -214,6 +215,7 @@
         position: absolute;
         bottom: 0;
         margin-bottom: 85px;
+        border: 1px solid green;
         padding: 0;
         width: 80%;
 }
