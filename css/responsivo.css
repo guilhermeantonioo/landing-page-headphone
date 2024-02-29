@@ -198,7 +198,8 @@
         align-items: center;
         position: absolute;
         bottom: 0;
-        margin-bottom: 130px;
+        margin-bottom: 150px;
+        border: 1px solid orange;
         padding: 0;
         width: 80%;
 }
